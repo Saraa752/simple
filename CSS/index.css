@@ -1,0 +1,260 @@
+* {
+    margin: 0 0;
+}
+
+
+.page1 {
+    height: 60%;
+}
+.iphone {
+    box-sizing: border-box
+}
+
+.iphone h4,p {
+    color: #9fa3a7;
+}
+
+
+.iphoneimg img {
+    width: 65%; 
+}
+
+.text {
+    width: 50%;
+    margin: auto auto auto 50px;
+    align-content: center;
+
+}
+.learnmore {
+    background-color: #f7f8f9;
+}
+
+.learnmore a {
+    color: #27b9c2;
+}
+.learntext {
+    width: 50%;
+    margin: auto auto;
+}
+
+.learntext h4 {
+    color: #9fa3a7;
+}
+
+.learntext h1 {
+    font-size: x-large;
+    color: black;
+}
+.page2 {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 350px);
+    grid-template-areas:
+        "item1 item2 item3 item4"
+        "item5 item6 item6 item4";
+}
+
+.keyboard {
+    grid-area: item1;
+    background-color: #f05638;
+    
+}
+
+.keyboard h1 {
+    color: white;
+
+}
+
+.keyboardtext {
+    font-size: x-large;
+}
+
+.keyboard a {
+    color: #ffc80a;
+    text-decoration: none;
+}
+
+
+
+.tv1 {
+    grid-area: item2;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+
+
+
+}
+
+.tv1text {
+    margin-left: 30px;
+
+}
+
+
+.tv1 img {
+    width: 70%;
+}
+
+.tv1 h4 {
+    color: #9fa3a7;
+    font-size: x-large;
+    
+}
+.tv1 h2 {
+    font-size: x-large;
+}
+
+.parg {
+    grid-area: item3;
+    align-content: center;
+}
+.parg h3{
+    font-size: x-large;
+}
+
+.popularmark {
+    height: 30px;
+    background-color: #8f76bc;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+
+
+.parg h3 {
+    color: #9fa3a7;
+    font-size: larger;
+}
+
+.parg a {
+    color: #27b9c2;
+}
+
+.desk {
+    background: radial-gradient(circle at 190px 200px, #8166b0 30%, #8f76bc 30%);
+    grid-area: item4;
+}
+
+.desk h4,
+h1,
+h3 {
+    color: white;
+    font-size: x-large;
+}
+
+.desk a {
+    color: black;
+    text-decoration: none;
+}
+
+.desk img {
+    width: 50%;
+}
+
+.yellowbutton {
+    width: 130px;
+    background-color: #ffc80a;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 30px;
+ 
+
+}
+.game {
+    grid-area: item5;
+}
+.game a {
+    color: #27b9c2;
+    text-decoration: none;
+}
+
+.mobile {
+    background-color: #93b6b7;
+    background: radial-gradient(UX at 190px 200px, #8166b0 30%, #8f76bc 30%);
+
+}
+
+
+.bestchoice {
+    background-color: #fa684f;
+    color: #f7f8f9;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bestchoice h5{
+    font-size: medium;
+}
+
+.exp {
+    background-color: #93b6b7;
+    color: #f7f8f9;
+    grid-area: item6
+}
+
+
+
+
+.greenmark {
+    width: 70px;
+    height: 30px;
+    background-color: #7bc424;
+    color: white;
+    border-radius: 7px;
+}
+
+
+.tv2 img {
+    width: 270px;
+}
+
+
+.page3 {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-areas:
+        "twitter popular tv2 more";
+
+}
+
+.twitter {
+    grid-area: twitter;
+    color: white;
+    background-color: #38d5f4;
+    background: radial-gradient(circle at center, #35cfed 50%, #38d5f4 30%);
+
+}
+
+
+.popular {
+    grid-area: popular;
+  
+}
+
+.tv2 {
+    grid-area: tv2;
+
+    background-color: #2c2c2c;
+    width: 100%;
+
+}
+
+.more {
+    grid-area: more;
+    align-content: center;
+    text-align: center;
+    background-color: #2c2c2c;
+    width: 100%;
+    color: white;
+
+}
+
+
+
